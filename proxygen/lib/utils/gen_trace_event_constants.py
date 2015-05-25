@@ -34,6 +34,7 @@ def main(argv):
     for file_name in file_names:
         # strip the file extension and use the file name for class name
         class_name = file_name.split(".")[0]
+        class_name = class_name.replace("proxygen/proxygen/lib/utils/", "")
 
         # parse items from source
         items = []
