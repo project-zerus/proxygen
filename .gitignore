@@ -10,11 +10,9 @@
 /proxygen/autom4te.cache/
 /proxygen/build-aux/
 /proxygen/config.guess
-/proxygen/config.h
 /proxygen/config.h.in
 /proxygen/config.status
 /proxygen/configure
-/proxygen/proxygen-config.h
 Makefile.in
 
 # Configure artifacts
