@@ -22,6 +22,7 @@ gen_rule(
 
 cc_library(
   name = 'utils',
+  warning = 'no',
   srcs = [
     'AsyncTimeoutSet.cpp',
     'ChromeUtils.cpp',
