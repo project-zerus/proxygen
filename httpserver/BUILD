@@ -1,5 +1,6 @@
 cc_library(
   name = 'httpserver',
+  warning = 'no',
   srcs = [
     'HTTPServerAcceptor.cpp',
     'HTTPServer.cpp',

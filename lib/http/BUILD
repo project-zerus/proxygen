@@ -32,6 +32,7 @@ gen_rule(
 
 cc_library(
   name = 'http',
+  warning = 'no',
   srcs = [
     'HTTPCommonHeaders.cpp',
     'HTTPConnector.cpp',
